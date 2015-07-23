@@ -1,7 +1,11 @@
 $(document).ready(function () {
 
-	$('.example').click(function() {
-		
-	})
+	$('.enemy').click(function() {
+		$('.enemy').hide();
+		$('.hidden').show();
+
+	});
+	
+	
 
 });
