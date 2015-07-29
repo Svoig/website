@@ -1,11 +1,6 @@
-$(document).ready(function () {
+var vanish = function() {
+	var beGone = document.getElementByClassName('enemy');
+	beGone.style.visibility  = hidden;
+};
 
-	$('.enemy').click(function() {
-		$('.enemy').hide();
-		$('.hidden').show();
-
-	});
-	
-	
-
-});
+document.onkeydown = vanish();

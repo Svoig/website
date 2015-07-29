@@ -2,17 +2,28 @@
 <html>
 
 <head>
-	<title>Click the box! I dare you./title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
-	</script>
-	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+	<title>Click the box! I dare you.</title>
+
+	<link rel = "stylesheet" type="text/css" href = "C:\Users\Harrison\Documents\GitHub\website\style.css"/>
+	<script src="/script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
 </head>
 
 <body> 
-
+	<script type="text/javascript">
+	var vanish = function() {
+		var beGone = document.getElementByClassName('enemy');
+		beGone.style.visibility  = hidden;
+	};
+	</script>
 	<h1> Try to click on this box. </h1>
 
-	<div class = "enemy"> </div>
+	<div class = "enemy">
+
+	<button onclick = 'vanish();'>Click here!</button> 
+
+	</div>
 
 	<h2 class = hidden> You did it! </h2>
 
